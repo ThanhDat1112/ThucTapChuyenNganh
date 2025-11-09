@@ -1,0 +1,237 @@
+<!-- Breadcrumbs-->
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="/admin">Dashboard</a>
+    </li>
+    <li class="breadcrumb-item active">Product Management</li>
+</ol>
+
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">All Products</h1>
+    <a href="/admin/product/add" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+        <i class="fa fa-plus fa-sm text-white-50"></i> Add New Product
+    </a>
+</div>
+
+<!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Product List</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Product Image</th>
+                    <th>Product Name</th>
+                    <th>Category</th>
+                    <th>Supplier</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Units Sold</th>
+                    <th>Rating</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <img src="/images/img-1.png" alt="Portland Cement" style="width: 60px; height: 40px; object-fit: cover; border-radius: 4px;">
+                    </td>
+                    <td><strong>Portland Cement - 50kg Bag</strong></td>
+                    <td>Cement & Concrete</td>
+                    <td>ABC Cement Co.</td>
+                    <td>$25.00</td>
+                    <td>150</td>
+                    <td>450</td>
+                    <td>
+                        <i class="fa fa-star text-warning"></i> 4.9
+                    </td>
+                    <td><span class="badge badge-success">In Stock</span></td>
+                    <td>
+                        <a href="/admin/product/edit/1" class="btn btn-sm btn-warning">
+                            <i class="fa fa-edit"></i> Edit
+                        </a>
+                        <button class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash"></i> Delete
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <img src="/images/img-2.png" alt="Steel Reinforcement" style="width: 60px; height: 40px; object-fit: cover; border-radius: 4px;">
+                    </td>
+                    <td><strong>Steel Reinforcement Bars - 12mm</strong></td>
+                    <td>Steel & Reinforcement</td>
+                    <td>SteelWorks Inc.</td>
+                    <td>$150.00</td>
+                    <td>80</td>
+                    <td>120</td>
+                    <td>
+                        <i class="fa fa-star text-warning"></i> 4.8
+                    </td>
+                    <td><span class="badge badge-success">In Stock</span></td>
+                    <td>
+                        <a href="/admin/product/edit/2" class="btn btn-sm btn-warning">
+                            <i class="fa fa-edit"></i> Edit
+                        </a>
+                        <button class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash"></i> Delete
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <img src="/images/img-3.png" alt="Clay Bricks" style="width: 60px; height: 40px; object-fit: cover; border-radius: 4px;">
+                    </td>
+                    <td><strong>Red Clay Bricks - Standard Size</strong></td>
+                    <td>Bricks & Blocks</td>
+                    <td>BrickMaster Ltd.</td>
+                    <td>$0.50</td>
+                    <td>5000</td>
+                    <td>15000</td>
+                    <td>
+                        <i class="fa fa-star text-warning"></i> 4.7
+                    </td>
+                    <td><span class="badge badge-success">In Stock</span></td>
+                    <td>
+                        <a href="/admin/product/edit/3" class="btn btn-sm btn-warning">
+                            <i class="fa fa-edit"></i> Edit
+                        </a>
+                        <button class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash"></i> Delete
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <img src="/images/img-4.png" alt="Roof Tiles" style="width: 60px; height: 40px; object-fit: cover; border-radius: 4px;">
+                    </td>
+                    <td><strong>Concrete Roof Tiles - Terracotta</strong></td>
+                    <td>Roofing Materials</td>
+                    <td>RoofPro Supplies</td>
+                    <td>$2.50</td>
+                    <td>800</td>
+                    <td>450</td>
+                    <td>
+                        <i class="fa fa-star text-warning"></i> 4.6
+                    </td>
+                    <td><span class="badge badge-success">In Stock</span></td>
+                    <td>
+                        <a href="/admin/product/edit/4" class="btn btn-sm btn-warning">
+                            <i class="fa fa-edit"></i> Edit
+                        </a>
+                        <button class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash"></i> Delete
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        <img src="/images/img-5.png" alt="PVC Pipes" style="width: 60px; height: 40px; object-fit: cover; border-radius: 4px;">
+                    </td>
+                    <td><strong>PVC Pipes - 2-inch Diameter</strong></td>
+                    <td>Plumbing & Pipes</td>
+                    <td>PipeSolutions Co.</td>
+                    <td>$15.00</td>
+                    <td>25</td>
+                    <td>180</td>
+                    <td>
+                        <i class="fa fa-star text-warning"></i> 4.5
+                    </td>
+                    <td><span class="badge badge-warning">Low Stock</span></td>
+                    <td>
+                        <a href="/admin/product/edit/5" class="btn btn-sm btn-warning">
+                            <i class="fa fa-edit"></i> Edit
+                        </a>
+                        <button class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash"></i> Delete
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>
+                        <img src="/images/img-6.png" alt="Electrical Wires" style="width: 60px; height: 40px; object-fit: cover; border-radius: 4px;">
+                    </td>
+                    <td><strong>Copper Electrical Wires - 2.5mm²</strong></td>
+                    <td>Electrical Supplies</td>
+                    <td>ElectroPower Ltd.</td>
+                    <td>$45.00</td>
+                    <td>60</td>
+                    <td>95</td>
+                    <td>
+                        <i class="fa fa-star text-warning"></i> 4.4
+                    </td>
+                    <td><span class="badge badge-success">In Stock</span></td>
+                    <td>
+                        <a href="/admin/product/edit/6" class="btn btn-sm btn-warning">
+                            <i class="fa fa-edit"></i> Edit
+                        </a>
+                        <button class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash"></i> Delete
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>
+                        <img src="/images/img-7.png" alt="Hammer Drill" style="width: 60px; height: 40px; object-fit: cover; border-radius: 4px;">
+                    </td>
+                    <td><strong>Cordless Hammer Drill - 18V</strong></td>
+                    <td>Tools & Equipment</td>
+                    <td>ToolTech Industries</td>
+                    <td>$89.00</td>
+                    <td>35</td>
+                    <td>67</td>
+                    <td>
+                        <i class="fa fa-star text-warning"></i> 4.7
+                    </td>
+                    <td><span class="badge badge-success">In Stock</span></td>
+                    <td>
+                        <a href="/admin/product/edit/7" class="btn btn-sm btn-warning">
+                            <i class="fa fa-edit"></i> Edit
+                        </a>
+                        <button class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash"></i> Delete
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>
+                        <img src="/images/img-8.png" alt="Interior Paint" style="width: 60px; height: 40px; object-fit: cover; border-radius: 4px;">
+                    </td>
+                    <td><strong>Interior Wall Paint - White</strong></td>
+                    <td>Paints & Coatings</td>
+                    <td>ColorCraft Paints</td>
+                    <td>$35.00</td>
+                    <td>90</td>
+                    <td>210</td>
+                    <td>
+                        <i class="fa fa-star text-warning"></i> 4.6
+                    </td>
+                    <td><span class="badge badge-success">In Stock</span></td>
+                    <td>
+                        <a href="/admin/product/edit/8" class="btn btn-sm btn-warning">
+                            <i class="fa fa-edit"></i> Edit
+                        </a>
+                        <button class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash"></i> Delete
+                        </button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
